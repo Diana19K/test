@@ -1,0 +1,367 @@
+body{
+    width: auto;
+    background-image: url(img/fon1.jpg);
+
+}
+
+header{
+    background-color:#E7E7E74D;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+/*Шапка*/
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.logotip{
+    height: 100px;
+    width: 100px; 
+}
+/*Навигация*/
+.menu{
+    display: flex;
+    width: 450px;
+    height: 69px;
+    margin-top: -86px;
+    margin-left: 531px;
+
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.menues{
+    display: flex;
+}
+
+.a_menu{
+    color: rgb(0, 0, 0);
+    font-family: 'Inter';
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.menuV{
+    display: flex;
+    float: left;
+    width: 450px;
+    height: 69px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.a_menuV{
+    color: rgb(0, 0, 0);
+    font-family: 'Inter';
+    font-size: 23px;
+    background-color: #fff0;
+}
+
+.cart{
+    border-radius: 5px;
+    background: #689F38;
+    text-align: center;
+    position: relative;
+    width: 159px;
+    height: 82px;
+}
+
+.a_cart{
+    color: rgb(255, 255, 255);
+    font-family: 'Inter';
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.textC{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-top: 6px;
+}
+
+.menues{
+    position: absolute;
+    z-index: 4;
+    top: 20px;
+    left: 223px;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu > ul > li{
+	float: left;
+	width: 180px;
+	position: relative;
+    
+}
+
+#menu li a{
+	display: block;
+	color: #060A13;
+	padding: 8px;
+	text-align: inherit;
+	text-decoration: none;
+    font-family: 'Inter';
+    font-size: 23px;
+}
+
+#menu li .topmenu{
+	display: none;
+}
+
+#menu li:hover .topmenu{
+	display: block;
+
+}
+
+.topmenu{
+    border: 1px solid #aeaeae;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+
+.m:hover{
+    background: rgb(127, 192, 141);
+    border-radius: 9px 9px 0px 0px;
+}
+
+#menu li li{
+	width: 180px;
+    background-color: #FFF;
+}
+
+.p:hover{
+    background-color: rgb(127, 192, 141);
+}
+
+.glav{
+    color: black;
+    font-family: Inter;
+    display: flex;
+    font-size: 23px;
+}
+
+.glav:hover{
+    transform: scale(1.2);
+
+}
+
+a{
+    text-decoration: none;
+}
+/*Поисковая строка*/
+.seek_bar{
+    width: 99.6%;
+    height: 70px;
+    padding: 3px 3px;
+}
+
+.seek{
+  position: relative;
+  width: 99.7%;
+  height: 64px;
+  background: #ffffff57;
+  border-radius: 4px;
+  padding: 3px 3px;
+}
+
+.search_line{
+  display: inline-block;
+  width: 99%;
+  height: 77%;
+  padding: 7px 9px;
+  border: none !important;
+  transition: all 0.4s;
+  vertical-align: middle;
+  background-color: #ffffff29;
+}
+
+.but{
+    display: inline-block;
+    width: 133px;
+    height: 100%;
+    background-color: #F29C21;
+    position: absolute;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    right: 0;
+    top: 0;
+    font-family: 'Inter';
+}
+
+.Basket{
+    display: flex;
+    flex-direction: inherit;
+    gap: 61px;
+}
+
+.basket-text{
+    color: #000;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.basket-text1{
+    color: #C70C0C;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal; 
+    display: flex;
+    align-items: center;
+}
+
+.Title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Title-text{
+    color: #000;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.Summa{
+    display: flex;
+    gap: 34px;
+}
+
+.Title-text1{
+    color: rgba(255, 105, 105, 0.78);
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+hr{
+    color: #D5E9BF;
+}
+.price1{
+    width: 32px;
+}
+
+.price{
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form{
+    font-family: 'Inter';
+}
+
+.img2{
+    width: 20px;
+    height: 20px;
+}
+
+.product{
+    display: flex;
+    justify-content: space-around;
+}
+
+.prod{
+    display: flex;
+    gap: 20px;
+}
+
+.img4{
+    width: 132px;
+}
+
+.text{
+    color: #000;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    width: 121px;
+}
+
+.plus{
+    width: 4px;
+    transform: rotate(44.1deg);
+    color: rgba(255, 105, 105, 0.78);
+    font-family: Inter;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.sum{
+    display: flex;
+    align-items: center;
+}
+
+.num{
+    color: #000;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    accent-color: #ACC78E;
+    font-size: 17px;
+}
+
+.delivery{
+    margin-top: 47px;
+    color: #000;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;   
+}
+
+.result{
+    text-align: end;
+}
+
+.but1{
+    background-color: #961C1C;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    right: 0;
+    top: 0;
+    font-family: 'Inter';
+}
+
+.text5{
+    font-size: 15px;
+    font-family: Inter;
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Cardo&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--Шапка-->
+  <header>
+    <div class="logo">
+      <a href="index2.html"><img class="logotip" src="img/логотип2.png" alt=""></a>
+    </div> 
+      <div id="menu">
+        <ul class="menues">
+           <li><a href="#" class="m">Кошечкам</a>
+            <!--Выподающий список-->
+              <ul class="topmenu">
+                <li><a href="#" class="p">Корма</a></li>
+                <li><a href="#" class="p">Миски</a></li>
+                <li><a href="#" class="p">Наполнитель</a></li>
+                <li><a href="#" class="p">Туалеты</a></li>
+                <li><a href="#" class="p">Лакомства</a></li>
+                <li><a href="#" class="p">Когтеточки</a></li>
+                <li><a href="#" class="p">Лежанки</a></li>
+                <li><a href="#" class="p">Игрушки</a></li>
+              </ul>
+            </li>
+
+          <li><a href="#" class="m">Собачкам</a>
+            <!--Выподающий список-->
+            <ul class="topmenu">
+              <li><a href="#" class="p">Корма</a></li>
+              <li><a href="#" class="p">Миски</a></li>
+              <li><a href="#" class="p">Наполнитель</a></li>
+              <li><a href="#" class="p">Туалеты</a></li>
+              <li><a href="#" class="p">Лакомства</a></li>
+              <li><a href="#" class="p">Амуниция</a></li>
+              <li><a href="#" class="p">Лежанки</a></li>
+              <li><a href="#" class="p">Игрушки</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#" class="m">Другое</a>
+            <!--Выподающий список-->
+            <ul class="topmenu">
+              <li><a href="#" class="p">Корма для птиц, грызунов и рыб</a></li>
+              <li><a href="#" class="p">Клетки для птиц и грызунов</a></li>
+              <li><a href="#" class="p">Миски</a></li>
+              <li><a href="#" class="p">Наполнитель</a></li>
+              <li><a href="#" class="p">Туалеты</a></li>
+              <li><a href="#" class="p">Лакомства</a></li>
+              <li><a href="#" class="p">Когтеточки</a></li>
+              <li><a href="#" class="p">Лежанки</a></li>
+              <li><a href="#" class="p">Игрушки</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="header-right">
+        <div class="menuV">       
+          <button class="a_menuV" id="knop">Войти</button>
+        </div>
+        <div class="cart">
+          <p class="textC">Корзина</p>
+          <a href="index3.html" class="a_cart">Повторить прошлый заказ</a>
+        </div>
+      </div>
+      
+  </header>
+            <!--Поисковая строка-->
+    <div class="seek_bar">
+      <div class="seek">
+        <input type="text" autocomplete="off" placeholder="Поиск" name="query" value="" class="search_line">
+        <button class="but" type="submit" title="Поиск">Найти</button>
+      </div>  
+    </div>
+              <!--Список товаров-->
+    <main>
+        <h2 class="title_lines">Новинки</h2>
+        <div class="new">
+          <div class="new_pr1">
+            <a href="index1.html"><img src="img/пур1.png" class="img1" alt=""></a>
+            <p class="text">Корм сухой для кошек</p>
+            <div class="price">
+              <p class="text">1 422₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+              <img src="img/cor.png" class="img2" alt="">
+            </div>
+          </div>
+          <div class="new_pr1">
+            <a href="index1.html"><img src="img/n.png" class="img3" alt=""></a>
+            <p class="text">Когтеточка гофрированная</p>
+            <div class="price">
+              <p class="text">658₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+              <img src="img/cor.png" class="img2" alt="">
+            </div>
+          </div>
+          <div class="new_pr1">
+            <a href="index1.html"><img src="img/osheinic.png" class="img1" alt=""></a>
+            <p class="text">Ошейник для кошек и собак</p>
+            <div class="price">
+              <p class="text">100₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+              <img src="img/cor.png" class="img2" alt="">
+            </div>
+          </div>
+          <div class="new_pr1">
+            <a href="index1.html"><img src="img/r.jpg" class="img1" alt=""></a>
+            <p class="text">Шлейка для собак и кошек</p>
+            <div class="price">
+              <p class="text">120₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+              <img src="img/cor.png" class="img2" alt="">
+            </div>
+          </div>
+        </div>
+          <h2 class="title_lines">Популярные товары</h2>
+        <div class="new_product">
+          <div class="new1">
+            <div class="new_pr1">
+              <a href="index1.html"><img src="img/лакомства.jpg" class="img1" alt=""></a>
+              <p class="text">Лакомства для собак</p>
+              <div class="price">
+                <p class="text">158₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+                <img src="img/cor.png" class="img2" alt="">
+              </div>
+            </div>
+            <div class="new_pr1">
+              <a href="index1.html"><img src="img/лоток.jpg" class="img3" alt=""></a>
+              <div class="txt">
+              <p class="text">Лоток для кошек</p>
+              </div>
+              <div class="price">
+                <p class="text">952₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+                <img src="img/cor.png" class="img2" alt="">
+              </div>
+            </div>
+            <div class="new_pr1">
+              <a href="index1.html"><img src="img/клетка.webp" class="img1" alt=""></a>
+              <p class="text">Клетка для для птиц</p>
+              <div class="price">
+                <p class="text">1 260₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+                <img src="img/cor.png" class="img2" alt="">
+              </div>
+            </div>
+            <div class="new_pr1">
+              <a href="index1.html"><img src="img/миска.webp" class="img1" alt=""></a>
+              <p class="text">Миска для еды и воды</p>
+              <div class="price">
+                <p class="text">65₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+                <img src="img/cor.png" class="img2" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="new1">
+            <div class="new_pr1">
+              <a href="index1.html"><img src="img/couch.jpg" class="img1" alt=""></a>
+              <p class="text">Лежанка для ваших питомцев</p>
+              <div class="price">
+                <p class="text">756₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+                <img src="img/cor.png" class="img2" alt="">
+              </div>
+            </div>
+            <div class="new_pr1">
+              <a href="index1.html"><img src="img/терарриум.webp" class="img1" alt=""></a>
+              <div class="txt">
+              <p class="text">Террариум для экзотических питомцев</p>
+              </div>
+              <div class="price">
+                <p class="text">1 563₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+                <img src="img/cor.png" class="img2" alt="">
+              </div>
+            </div>
+            <div class="new_pr1">
+              <a href="index1.html"><img src="img/аквариум.jpg" class="img1" alt=""></a>
+              <p class="text">Аквариум для черепах</p>
+              <div class="price">
+                <p class="text">1 650₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+                <img src="img/cor.png" class="img2" alt="">
+              </div>
+            </div>
+          </div>
+            <div class="new2">
+              <div class="new_pr2">
+                <a href="index1.html"><img src="img/игрушка.webp" class="img3" alt=""></a>
+                <p class="text">Резиновая кость для собак</p>
+                <div class="price">
+                  <p class="text">256₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+                  <img src="img/cor.png" class="img2" alt="">
+                </div>
+              </div>
+              <div class="new_pr2">
+                <a href="index1.html"><img src="img/игрушки.webp" class="img1" alt=""></a>
+                <div class="txt">
+                <p class="text">Игрушка "Мышь" для кошек</p>
+                </div>
+                <div class="price">
+                  <p class="text">63₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+                  <img src="img/cor.png" class="img2" alt="">
+                </div>
+              </div>
+            </div>
+              <div class="new3">
+                <div class="new_pr3">
+                  <a href="index1.html"><img src="img/клетка1.jpg" class="img3" alt=""></a>
+                  <p class="text">Клетка для грызунов</p>
+                  <div class="price">
+                    <p class="text">256₽</p><form><input class="price1" type="number" min="0" max="25" value="0"></form>
+                    <img src="img/cor.png" class="img2" alt="">
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!--Новости-->
+          <h2 class="title_lines">Новости</h2>
+          <div class="News">
+            <div class="new_pr4">
+              <div class="txt1">
+              <p class="text1">25.12.2023</p>
+              </div>
+              <div class="txt1">
+                <p class="text">С 1 по 2 января интернет-магазин не будет работать</p>
+              </div>
+            </div>
+            <div class="new_pr4">
+              <div class="txt1">
+              <p class="text">Скидки на игрушки для животных</p>
+              </div>
+              <div class="txt2">
+                <p class="text2">С 15.10 по 31.10 - на игрушки для кошек</p>
+                <p class="text2">С 15.10 по 31.10 - на игрушки для собак</p>
+                <p class="text2">С 15.10 по 31.10 - на игрушки для остальных животных</p>
+              </div>
+            </div>
+          </div>
+          <!--О компании-->
+          <div class="Company">
+            <div class="about_the_company">
+              <p class="comp">О компании</p>
+              <p>Добро пожаловать в Интернет-зоомагазин Багира! У нас Вы найдете широкий ассортимент
+                качественных товаров для кошек, собак, птиц и грызунов, которые помогут сделать Ваших 
+                Любимцев счастливее, а Вашу жизнь комфортнее и радостнее.
+                Наш магазин предлагает Вам самые популярные товары от ведущих производителей 
+                зооиндустрии. Готовые кормовые рационы, игрушки, аксессуары для прогулок и поездок, 
+                средства гигиены, витаминные комплексы заказанные в нашем интернет магазине, помогут 
+                Вам не только сделать приятное домашнему питомцу, но и сэкономить время и деньги.</p>
+            </div>
+            <div class="delivery">
+              <p class="del">Доставка заказов осуществляется в кратчайшие сроки, по указанному адресу и в удобное 
+                для Вас время. Все товары доставляются до двери Вашего дома или квартиры. Также по 
+                Вашему желанию Вы можете забрать заказанный товар в розничном магазине «Багира».
+                Мы всегда открыты к диалогу. Если вам нужна консультация – звоните, мы с радостью 
+                поможем, ответим на вопросы и проконсультируем Вас. Если не нашли интересующий Вас 
+                товар – звоните, возможно он имеется в нашей торговой сети, либо мы сможем привезти 
+                его по предварительному заказу. Ваше мнение и советы очень важны для нас, ведь вместе 
+                мы дарим нашим питомцам Любовь, Заботу, и делаем мир чуть добрее и прекраснее.</p>
+            </div>
+          </div>
+  </main>
+  <!--Футер-->
+  <footer>
+    <div class="connection">
+      <p class="call">Позвоните мне<br>+7 (962) 566 56 10</p>
+      <p class="subscribe">Подписаться на рассылку</p>
+      <input type="text" autocomplete="off" placeholder="Введите e-mail" name="query" value="" class="sub">
+    </div>
+    <div class="catalog">
+      <p class="cat">Католог</p>
+      <a href="#"><p class="text">Кошечкам<br>Собачкам<br>Птичкам<br>Грызунам<br>Рыбкам</p></a>
+    </div>
+    <div class="inform">
+      <p class="inf">Информация</p>
+      <a href="#"><p class="text">Акции<br>Оплата и доставка<br>Возврат и обмен</p></a>
+    </div>
+    <div class="We">
+      <p class="we">Мы в соцсетях</p>
+      <a href="#"><img src="img/vk.png" class="vk" alt=""></a>
+      <a href="#"><img src="img/tg.png" class="tg" alt=""></a>
+      <a href="#"><img src="img/ok.png" class="ok" alt=""></a>
+    </div>
+  </footer>
+<!--Модальное окно-->
+  <div class="model">
+    <p  class="p13">Авторизация</p>
+    <p class="name1">Логин<input type="text" class="name" placeholder=""><br></p>
+    <p class="name1">Пароль<input class="input" type="password" placeholder=""></p>
+    <button type="submit" formmethod="get" id="closeModal">Войти</button>
+    <a href="index4.html" class="admin">Администратор</a>
+    <p class="text3">Ещё не зарегестрированы на сайте?</p><button class="av" id="knopka">Регистрация</button>
+  </div>
+  <!--Модальное окно-->
+   <div class="model1">
+    <p  class="p13">Регистрация</p>
+    <p class="name1"> Фамилия<input type="text" class="name" placeholder=""><br></p>
+    <p class="name1"> Имя<input type="text" class="name" placeholder=""><br></p>
+    <p class="name1"> Эл. почта<input type="email" class="name" placeholder=""><br></p>
+    <p class="name1"> Телефон<input type="tel" class="name" placeholder=""><br></p>
+    <p class="p13">Пароль</p>
+    <p class="name1">Введите пароль<input class="input" type="password" placeholder=""></p>
+    <p class="name1">Повторите пароль<input class="input" type="password" placeholder=""></p>
+    <button type="submit" formmethod="get" id="closeModal1">Зарегестрироваться</button>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
